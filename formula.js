@@ -1,0 +1,1 @@
+import {create_arr, fill_text, fill_index, point, yellow, green, red,animate} from './canvas.js'; 

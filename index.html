@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Linear Search</title>
+</head>
+<body>
+    <h4 class="inh01">Enter the size of the array:</h4>
+    <input type="text" class="in01">
+    <input type="button" value="Create Array" onclick="createArray()"; class="inb01">
+    <br>
+    <div class="invs divin01">
+        <select name="" id="dd01" class="ddc01" >  
+           <option value="User-Defined">User-Defined</option>
+          <option value="Random">Random</option>
+        </select>
+        <input type="button" value="Submit" onclick="user_choice();" class="inb02" >
+      </div>
+      <div class="divin02 invs">
+        <h4>Enter the elements:</h4>
+        <p class="p001">[0]</p>
+        <input type="text" class="in02">
+        <input type="button" value="Enter the element" onclick="add_ele();"; class="inb03">
+        <br>
+        <br>
+        </div>
+        <br>
+        <input type="button" value="Draw the array" onclick="draw_arr();" class="invs inb04">
+        <div class="divin03 invs">
+            <h4>Enter the number to be searched:</h4>
+            <input type="text" class="in03">
+            <input type="button" value="Enter the element" onclick="serchn();"  class=" inb05">
+            <br>
+            <br>
+            </div>
+            <input type="button" value="Run" class="inb06" onclick="runsearch();">
+            <canvas class="Mycanvas invs"></canvas>
+<script src="js/index.js"></script>    
+
+</body>
+</html>
